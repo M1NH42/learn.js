@@ -11,5 +11,11 @@ myList.push(["Archit", 50]);
 // and saves it the variable someList
 var someList = myList.pop();
 
-console.log(myList);
-console.log(someList);
+// console.log(myList);
+// console.log(someList);
+
+/* Manipulate using shift() => remove element from the front */
+var anotherList = ["AJ", 1, ["BK", 12, 45]];
+var removeFromFront = anotherList.shift();
+
+console.log(removeFromFront);
