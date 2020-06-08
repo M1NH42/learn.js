@@ -6,16 +6,16 @@
  * arrays
  * objects */
 
-var life = 100;
+var life = 100; // numeric datatype
 
 life = life - 10;
 
-var name = "minhaz alam";
+var name = "minhaz alam"; //string data type
 
-var isAdult = true;
+var isAdult = true; // boolean
 
 let myName = "Alam";
 
-const pi = 3.14;
+const pi = 3.14; // constant
 
 console.log(name);
