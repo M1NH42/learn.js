@@ -18,4 +18,9 @@ let myName = "Alam";
 
 const pi = 3.14; // constant
 
-console.log(name);
+// console.log(name);
+
+/* 
+multi
+line
+comments */
