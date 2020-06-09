@@ -16,6 +16,6 @@ var someList = myList.pop();
 
 /* Manipulate using shift() => remove element from the front */
 var anotherList = ["AJ", 1, ["BK", 12, 45]];
-var removeFromFront = anotherList.shift();
+var removeFromFront = anotherList.shift(); // removes AJ
 
 console.log(removeFromFront);
