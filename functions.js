@@ -28,3 +28,18 @@ calculateSum(12, 78);
 // this will throw an error saying sumOfTwoNumbers is
 // not defined in this scope
 // console.log(sumOfTwoNumbers);
+
+// global vs local
+
+// global variable
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  // this local variable overwrites the global variable
+  var outerWear = "Sweater";
+  return outerWear;
+}
+
+console.log(myOutfit()); // returns the variable local to that function only
+
+console.log(outerWear); // will print the global variable
