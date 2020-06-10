@@ -27,4 +27,4 @@ calculateSum(12, 78);
 
 // this will throw an error saying sumOfTwoNumbers is
 // not defined in this scope
-console.log(sumOfTwoNumbers);
+// console.log(sumOfTwoNumbers);
