@@ -18,4 +18,14 @@ var someList = myList.pop();
 var anotherList = ["AJ", 1, ["BK", 12, 45]];
 var removeFromFront = anotherList.shift(); // removes AJ
 
+// print anotherList
+console.log(anotherList);
+
+// unshift() adds element to the front of the list
+var addAtFront = anotherList.unshift(["Aalm", 22]);
+
+console.log(addAtFront);
+
 console.log(removeFromFront);
+
+// console.log(addAtFront);
