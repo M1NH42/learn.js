@@ -18,7 +18,10 @@ function calculateSum(a, b) {
   // sumOfTwoNumbers is local to this function only
   // if you want to access it outside this function
   // it will throw error that this is not define.
-  var sumOfTwoNumbers = a + b; // calculate sum of a and b and store into the sumOfTwoNumbers var
+  // calculate sum of a and b and store into the sumOfTwoNumbers var
+
+  var sumOfTwoNumbers = a + b;
+  // calculate sum of a and b and store into the sumOfTwoNumbers var
   console.log(sumOfTwoNumbers);
 }
 
