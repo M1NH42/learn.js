@@ -49,3 +49,6 @@ console.log(myOutfit()); // returns the variable local to that function only
 console.log(outerWear); // will print the global variable
 
 // function o return the remainder of the given numbers
+function returnModulo(a, b) {
+  return a % b;
+}
