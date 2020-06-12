@@ -47,3 +47,5 @@ console.log(myOutfit()); // returns the variable local to that function only
 
 // prints variable with global scope var
 console.log(outerWear); // will print the global variable
+
+// function o return the remainder of the given numbers
