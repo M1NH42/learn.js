@@ -11,3 +11,5 @@ var returnValue = useReturnKeyword(1234, 1234);
 
 // console.log(useReturnKeyword(123, 123));
 console.log(returnValue);
+
+console.log(useReturnKeyword(4243, 354635));
