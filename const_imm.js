@@ -25,11 +25,20 @@ console.log(paintingNames);
 const paintingInfo = {
   nameOfPainting: "Starry Night",
   nameOfPainter: "Van Gogh",
+  location: {
+    museum: "MoMA",
+    city: "New York City",
+  },
 };
+
+// FREEZE OBJECTS ONLY WORKS ON FIRST LEVEL OF FREEZE
+Object.freeze(paintingInfo);
 
 paintingInfo.year = 1889;
 
 // we can also modify the existing value
 paintingInfo.nameOfPainter = "Minhaz Alam";
+
+paintingInfo.location.country = "USA";
 
 console.log(paintingInfo);
