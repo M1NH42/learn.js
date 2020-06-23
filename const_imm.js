@@ -31,7 +31,7 @@ const paintingInfo = {
   },
 };
 
-// FREEZE OBJECTS ONLY WORKS ON FIRST LEVEL OF FREEZE
+// FREEZE OBJECTS ONLY WORKS ON FIRST LEVEL OF PROPERTY
 Object.freeze(paintingInfo);
 
 paintingInfo.year = 1889;
