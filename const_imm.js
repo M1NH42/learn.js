@@ -9,8 +9,27 @@
 // let paintingName = "The Night Cafe";
 // console.log(paintingName);
 
-const paintingName = "the starry nights";
-console.log(paintingName);
+const paintingNames = ["The Starry Night", "The Night Cafe"];
 
-paintingName = "the night cafe";
-console.log(paintingName);
+console.log(paintingNames);
+
+// but the values of const can be immutable
+paintingNames.push("Irises");
+
+console.log(paintingNames);
+
+// but we cannot reassign new value to a const variable
+// which will throw an error for that
+// paintingNames = [];
+
+const paintingInfo = {
+  nameOfPainting: "Starry Night",
+  nameOfPainter: "Van Gogh",
+};
+
+paintingInfo.year = 1889;
+
+// we can also modify the existing value
+paintingInfo.nameOfPainter = "Minhaz Alam";
+
+console.log(paintingInfo);
